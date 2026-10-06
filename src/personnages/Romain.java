@@ -1,9 +1,10 @@
+package personnages;
 
 public class Romain { 
 	private String nom;
 	private int force;
 	
-	public romain(String nom, int force) {
+	public Romain(String nom, int force) {
 		this.nom=nom;
 		this.force=force;
 	}
@@ -11,10 +12,10 @@ public class Romain {
 	public String getNom() {
 		return nom;
 	}
-	public void parler(String texe) {
+	public void parler(String texte) {
 		System.out.println(prendreParole() + "\"" +texte + "\"");
 	}
-	private String pprendreParole() {
+	private String prendreParole() {
 		return " Le romain " +nom+" : ";
 	}
 }
